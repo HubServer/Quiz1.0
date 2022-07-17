@@ -131,28 +131,3 @@ if c == "S" or c == "s":
         print("You got", str(right), "answers correct out of 10")
     q = (right/10)*100
     print("That means your accuracy is", str(q) + "%")
-    print("OK...")
-print("Ready for level 2? yes or no?")
-a = input()
-if a == "yes" or a == "YES" or a == "Yes":
-    print("Level Two start in...")
-    for seconds in range(10, 0, -1):
-        print(seconds)
-        time.sleep(1)
-else:
-    print("Hah! Loser!")
-right = 0
-print("Q1. Name the component of blood that fights infection?")
-print("A. RBC")
-print("B. WBC")
-print("C. Plasma")
-print("D. None of the above")
-a = input()
-if a == "B" or a == "b":
-    print("Correct!")
-    right = right + 1
-else:
-    print("Wrong :(")
-print("Finished with code 0")
-print("Press enter to exit")
-enter = input()
