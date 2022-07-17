@@ -1,5 +1,5 @@
 How to use - 
-Cick on "main.py" to run
+Left Click on "main.py" to run
 
 Min Requirements - 
 OS: Windows 7 or higher
