@@ -1,5 +1,7 @@
 import time
-print("Welcome to Quiz 1.0!")
+print("Enter your username: ")
+name = str(input())
+print("Welcome,", name, "to Quiz 1.1!")
 print("Type 's' to start")
 c = input()
 right = 0
@@ -140,19 +142,19 @@ if a == "yes" or a == "YES" or a == "Yes":
         print(seconds)
         time.sleep(1)
         right = 0
-        print("Q1. Name the component of blood that fights infection?")
-        print("A. RBC")
-        print("B. WBC")
-        print("C. Plasma")
-        print("D. None of the above")
-        a = input()
-        if a == "B" or a == "b":
-            print("Correct!")
-            right = right + 1
-        else:
-            print("Wrong :(")
-        print("Finished with code 0")
-        print("Press enter to exit")
-        enter = input()
+    print("Q1. Name the component of blood that fights infection?")
+    print("A. RBC")
+    print("B. WBC")
+    print("C. Plasma")
+    print("D. None of the above")
+    a = input()
+    if a == "B" or a == "b":
+        print("Correct!")
+        right = right + 1
+    else:
+        print("Wrong :(")
+    print("Finished with code 0")
+    print("Press enter to exit")
+    enter = input()
 else:
     print("Hah! Loser!")
