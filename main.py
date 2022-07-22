@@ -124,24 +124,14 @@ if c == "S" or c == "s":
         right = right + 1
     else:
         print("Wrong :(")
-
-    if right == 1:
-        print("You got only", str(right), "answer correct out of 10")
-    elif right == 0:
-        print("You gotta study hard")
-    else:
-        print("You got", str(right), "answers correct out of 10")
-    q = (right/10)*100
-    print("That means your accuracy is", str(q) + "%")
-print("OK...")
-print("Ready for level 2? yes or no?")
-a = input()
-if a == "yes" or a == "YES" or a == "Yes":
-    print("Level Two start in...")
-    for seconds in range(10, 0, -1):
+    print("OK... That was easy")
+    time.sleep(3)
+    print("Get Ready for level 2!")
+    time.sleep(3)
+    print("Level 2 start in...")
+    for seconds in range(5, 0, -1):
         print(seconds)
         time.sleep(1)
-        right = 0
     print("Q1. Name the component of blood that fights infection?")
     print("A. RBC")
     print("B. WBC")
@@ -153,6 +143,15 @@ if a == "yes" or a == "YES" or a == "Yes":
         right = right + 1
     else:
         print("Wrong :(")
+    if right == 1:
+        print("You got only", str(right), "answer correct out of 10")
+        print("You gotta study hard")
+    elif right == 0:
+        print("You gotta study hard")
+    else:
+        print("You got", str(right), "answers correct out of 10")
+    q = (right / 11) * 100
+    print("That means your accuracy is", str(q) + "%")
     print("Finished with code 0")
     print("Press enter to exit")
     enter = input()
